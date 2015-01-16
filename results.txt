@@ -1,3 +1,14 @@
+Deep Belief Networks consist multiple layers, a hierarchy of 
+unsupervised Restricted Boltzmann Machines (RBMs) where the 
+output of each RBM is used as input to the next.
+And then supervised back-propagation step for fine-tuning
+
+Dataset = MNIST
+Learning Rate = 0.1
+Epochs = 20
+Number of Hidden Layers = 3
+
+
          digit   precision    recall  f1-score   support
 
           0       0.99      0.99      0.99      2258
